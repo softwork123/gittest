@@ -32,23 +32,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<plugin>
-  ...
-    <configuration>
-        <cloudHubDeployment>
-            <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>${mule.version}</muleVersion>
-            <username>gouse7866</username>
-            <password>Khazi@1234!</password>
-            <applicationName>demo123</applicationName>
-            <environment>CloudHub</environment>
-            <properties>
-                <key>value</key>
-            </properties>
-        </cloudHubDeployment>
-    </configuration>
-
-</plugin>
 
 	<dependencies>
 		<dependency>
